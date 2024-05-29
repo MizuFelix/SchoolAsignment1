@@ -1,0 +1,32 @@
+img
+{
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+#Actions
+{
+    text-align: center;
+    font-size: larger;
+}
+
+#Content
+{
+    text-align: center;
+    font-family: monospace;
+    font-size: large;
+}
+
+#VSCode
+{
+    width: 70%;
+    height: 70%;
+}
+
+.Example
+{
+    text-align: center;
+    font-family: monospace;
+    font-size: large;
+    font-weight: bold;
+}

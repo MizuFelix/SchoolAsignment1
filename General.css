@@ -1,0 +1,46 @@
+body
+{
+    background-color: rgb(225, 225, 225);
+    margin: 0;
+    padding: 0;
+}
+
+a
+{
+    font-size: large;
+    font-weight: bold;
+    font-family: monospace;
+    text-decoration: none;
+    color: rgb(56, 63, 115);
+}
+
+p
+{
+    font-weight: 600;
+}
+
+a:hover
+{
+    text-decoration: underline dotted;
+}
+
+#Header
+{
+    text-align: center;
+    font-family: monospace;
+}
+
+#Neck
+{
+    text-align: center;
+    font-family: monospace;
+    background-color: black;
+    color: white;
+    padding-top: 3%;
+}
+
+#NeckText
+{
+    background-color: rgb(15, 15, 15);
+    padding: 2%;
+}

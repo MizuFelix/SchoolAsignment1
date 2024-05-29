@@ -1,0 +1,27 @@
+#MainLinks
+{
+    display: flex;
+    text-align: center;
+    font-family: monospace;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#Content
+{
+    margin-top: 30px;
+    text-align: center;
+    font-family: monospace;
+    font-size: larger;
+}
+
+#GameDev
+{
+    width: 60%;
+    height: 60%;
+    border-radius: 25px;
+    border: 1px solid;
+}

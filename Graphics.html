@@ -1,0 +1,88 @@
+<!-- Written by Felix Raue, May 2024 -->
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS files -->
+    <link rel="stylesheet" href="Graphics.css">
+    <link rel="stylesheet" href="General.css">
+
+    <title>Grafiken</title>
+</head>
+<body>
+    <!-- Neck -->
+    <div id="Neck">
+        <h1 id="NeckText">Spieleentwicklung</h1>
+        <br>
+    </div>
+
+    <!-- Header Div -->
+    <div id="Header">
+        <h1>Grafiken</h1>
+    </div>
+
+    <br>
+
+    <!-- Actions -->
+    <div id="Actions">
+        <a href="index.html">Zurück</a>
+    </div>
+
+    <br>
+
+    <!-- Page Content -->
+    <div id="Content">
+        <p>Grafiken sind die Formen und Körper die man während des spielens</p>
+        <p>im Spiel sieht. Dazu muss der Code mit der Grafikkarte kommunizieren.</p>
+        
+        <br>
+
+        <p class="Info">Wenn man ein externes Werkzeug für die Entwicklung</p>
+        <p class="Info">benutzt, sollten Grafiken direkt davon "erstellt" werden.</p>
+
+        <br>
+
+        <p>Wenn man allerdings sein Spiel komplett selbst schreibt, brauch man</p>
+        <p>einen Weg seine Grafiken zu schreiben. Das ist wo Graphics APIs</p>
+        <p>ins Spiel (;P) kommen.</p>
+        
+        <br>
+        
+        <p class="Info">API = Application Programming Interface</p>
+
+        <br>
+
+        <p>Sie sprechen mit der Grafikkarte und sagen ihr wann sie was auf den</p>
+        <p>Bildschirm zeichnen muss.</p>
+        <p>Diese kann man in sein Programm einbinden. Die Grafik API freundlichste</p>
+        <p>Programmiersprache ist C++. Das heißt für diese Programmiersprache gibt</p>
+        <p>es die meisten dafür entwickelten APIs.</p>
+
+        <br>
+
+        <p class="Example">Beispiele:</p>
+
+        <div id="ApiExamples">
+            <ul>
+                <li><a href="https://www.opengl.org">Khronos Group - OpenGL</a> (Verfügbar auf iOS, Android, Mac, Linux und Windows)</li>
+                <li><a href="https://support.microsoft.com/de-de/topic/installieren-der-neuesten-version-von-directx-d1f5ffa5-dae2-246c-91b1-ee1e973ed8c2">Microsoft - DirectX</a> (Verfügbar auf Windows und XBOX)</li>
+                <li><a href="https://developer.apple.com/metal">Apple - Metal</a> (Verfügbar auf iOS, iPadOS und Mac)</li>
+            </ul>
+        </div>
+
+        <br>
+
+        <p>Die Sache ist: Grafikprogrammierung ist meist schwer und aufwendig,</p>
+        <p>deswegen wird empfohlen mit <a href="https://www.opengl.org/">OpenGL</a> (Open Graphics Library), </p>
+        <p>einer eher einfachen API, anzufangen.</p>
+   
+        <br>
+
+        <p class="Example">Hier, das OpenGL Logo</p>
+        <img id="OpenGL" src="../Resources/OpenGL.svg">
+    </div>
+</body>
+</html>
